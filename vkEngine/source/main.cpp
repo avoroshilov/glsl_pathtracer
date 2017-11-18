@@ -111,7 +111,7 @@ int main()
 	Timer perfTimer;
 
 	Window window;
-	window.setParameters(800, 600, false);
+	window.setParameters(800, 600, Window::Kind::eWindowed);
 	window.init();
 
 	MSG msg;
